@@ -4,7 +4,7 @@ Tahapan instalasi di local
 3. buat folder, clone projek dari branch master
 
 konfigurasi db
-buat database mysql
+1. buat database mysql
 
 konfigurasi web
 1. buka folder projek di vscode
