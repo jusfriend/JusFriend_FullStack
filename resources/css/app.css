@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    margin: 0;
+    background-color: #FFF3F3;
+}
+
 [x-cloak] {
     display: none;
 }

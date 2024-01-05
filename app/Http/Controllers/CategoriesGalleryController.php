@@ -70,7 +70,8 @@ class CategoriesGalleryController extends Controller
         if($request->hasFile('files'))
         {
             foreach ($files as $file) {
-                $path = $file->store('public/gallery');
+                // $path = $file->store('public/gallery');
+                $path = $file->store('gallery', 'public');
 
                 CategoriesGallery::create([
                     'categories_id' => $category->id,
@@ -81,6 +82,26 @@ class CategoriesGalleryController extends Controller
 
         return redirect()->route('dashboard.categories.categories-gallery.index', $category->id);
     }
+    // public function store(CategoriesGalleryRequest $request, Categories $category)
+    // {
+    //     $files = $request->file('files');
+
+    //     if ($request->hasFile('files')) {
+    //         foreach ($files as $file) {
+    //             // Simpan gambar ke storage
+    //             $path = $file->store('public/gallery');
+
+    //             // Simpan path ke dalam database
+    //             CategoriesGallery::create([
+    //                 'categories_id' => $category->id,
+    //                 'url' => $path
+    //             ]);
+    //         }
+    //     }
+
+    //     return redirect()->route('dashboard.categories-gallery.index', $category->id);
+    // }
+
 
     /**
      * Display the specified resource.

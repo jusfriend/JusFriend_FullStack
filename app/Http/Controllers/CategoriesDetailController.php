@@ -21,6 +21,7 @@ class CategoriesDetailController extends Controller
 
         $category = Categories::with(['galleri'])->latest()->get();
 
+
         return view('pages.frontend.category', compact('products','category'));
     }
 

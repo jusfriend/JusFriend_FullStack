@@ -47,6 +47,7 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
+  background-color: #FFF3F3;
 }
 
 /**
@@ -1713,7 +1714,7 @@ video {
 *{
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
   --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
+  --tw-ring-offset-color: #FFF3F3;
   --tw-ring-color: rgba(66, 153, 225, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;

@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title>LuxSpace</title>
+    <title>Juice.Friend</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -18,8 +18,12 @@
     <link rel="stylesheet" href="{{ url('/frontend/css/main.css') }}" />
     <link rel="icon" href="{{ url('/frontend/images/content/favicon.png') }}" />
 
+
     <meta name="theme-color" content="#000" />
-  <link rel="icon" href="favicon.ico"><link href="{{ url('/frontend/css/app.minify.css') }}" rel="stylesheet"></head>
+  <link rel="icon" href="favicon.ico">
+  <link href="{{ url('/frontend/css/app.minify.css') }}" rel="stylesheet">
+  <link href="{{ url('/frontend/css/jus.css') }}" rel="stylesheet">
+</head>
 
   <body>
     <!-- Add your site or application content here -->
@@ -52,5 +56,6 @@
       ga("send", "pageview");
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
-  <script src="{{ url('/frontend/js/app.js') }}"></script></body>
+  <script src="{{ url('/frontend/js/app.js') }}"></script>
+</body>
 </html>

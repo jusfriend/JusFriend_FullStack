@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- START: BREADCRUMB -->
-    <section class="bg-gray-100 py-8 px-4">
+    <section class="bg-gray-100 py-8 px-4" style="background-color: #FFF3F3">
       <div class="container mx-auto">
         <ul class="breadcrumb">
           <li>
@@ -92,7 +92,7 @@
 
           <hr class="my-8" />
 
-          <h6 class="text-xl font-semibold mb-4">About the product</h6>
+          <h6 class="text-xl font-semibold mb-4">Deskripsi</h6>
           <div class="text-xl leading-7 mb-6">
             {!! $product->description !!}
           </div>
@@ -102,11 +102,11 @@
     <!-- END: DETAILS -->
 
     <!-- START: COMPLETE YOUR ROOM -->
-    <section class="bg-gray-100 px-4 py-16">
+    <section class="bg-gray-100 px-4 py-16" style="background-color: #FFF3F3">
       <div class="container mx-auto">
         <div class="flex flex-start mb-4">
-          <h3 class="text-2xl capitalize font-semibold">
-            Complete your room <br class="" />with what we designed
+          <h3 class="text-2xl  font-semibold">
+            Yang seger seger buat kamu
           </h3>
         </div>
         <div class="flex overflow-x-auto mb-4 -mx-3">

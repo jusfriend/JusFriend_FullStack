@@ -1,0 +1,25 @@
+/* .heroJus{
+    margin-top: 20vh;
+    margin-left: auto;
+    background-color: aliceblue;
+    width: 80vw;
+    justify-content: center;
+} */
+
+.heroJus {
+    margin-top: 20vh; 
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.heroJus .img-jus{
+    height: 70vh;
+    width: 80vw;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: bottom;
+}
